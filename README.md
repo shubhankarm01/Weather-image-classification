@@ -8,5 +8,4 @@ In the second approach, HuggingFace pretrained-model (google/vit-base-patch16-22
 
 In the last approach, vgg16 pre-trained models from TenforFlow-Keras application module was used. In this, ImageDataGenerator was used for creating batches of the input images in the required format. A sequential model with vgg16 as the first layer, two dense hidden layers and a classification layer with 5 outputs was constructed. The layers inside vgg16 were frozen and the rest were trained. 
 
-The results were compared from all the approaches. The project was to understand the implementation of different frameworks and techniques. At last, test data was used for the prediction.
-
+The results from all the approaches were compared. The project was to understand the implementation of different frameworks and techniques. At last, test data was used for the prediction.
